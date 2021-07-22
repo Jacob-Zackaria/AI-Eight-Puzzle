@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SolveMethod">
+      <UniqueIdentifier>{8549b5d4-04f4-4127-8d0e-c26c4a53b7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SolutionAlgorithms">
+      <UniqueIdentifier>{ed546234-c2f7-48c2-8b3e-aaed8db6c10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeData">
+      <UniqueIdentifier>{36ecdaad-cb74-493f-aac9-cc8b47d0deaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\Node.cpp">
+      <Filter>Source Files\NodeData</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\NodeData.cpp">
+      <Filter>Source Files\NodeData</Filter>
+    </ClCompile>
+    <ClCompile Include="SolveMethod\SolveMethod.cpp">
+      <Filter>Source Files\SolveMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\AStar1.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\AStar2.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\BestFirstSearch.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\BreadthFirstSearch.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\DepthFirstSearch.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\UniformCostSearch.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\SolutionAlgorithm.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\IterativeDeepening.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionAlgorithms\AStar3.cpp">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodeData\Node.h">
+      <Filter>Source Files\NodeData</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\NodeData.h">
+      <Filter>Source Files\NodeData</Filter>
+    </ClInclude>
+    <ClInclude Include="SolveMethod\SolveMethod.h">
+      <Filter>Source Files\SolveMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\AStar1.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\AStar2.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\BestFirstSearch.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\BreadthFirstSearch.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\DepthFirstSearch.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\SolutionAlgorithm.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\UniformCostSearch.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\IterativeDeepening.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionAlgorithms\AStar3.h">
+      <Filter>Source Files\SolutionAlgorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
